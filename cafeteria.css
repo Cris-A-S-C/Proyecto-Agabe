@@ -1,0 +1,10 @@
+body{
+            background-color: bisque;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        button{
+            background-color: rgba(250, 130, 44, 0.959);
+            border: 0;
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: underline;
+        }

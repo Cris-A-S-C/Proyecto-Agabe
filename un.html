@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLAZOS</title>
+</head>
+<body>
+    <table id="Tablazo1" name="tabla1" border="0">
+        <thead>
+            <th></th><th></th>
+        </thead>
+        <tbody>
+            <tr><td></td><td><img src="Avatare.png" alt=""></td></tr>
+            <tr><td>Nombre</td><td><input type="text" id="names"></td></tr>
+            <tr><td>Matricula</td><td><input type="text" id="matri"></td></tr>
+
+            <tr><td>Alto</td><td><input name="tm" type="radio" value="1"></td></tr>
+            <tr><td>Pequeño</td><td><input name="tm" type="radio" value="2"></td></tr>
+            
+            <tr><td>Canela</td><td><input type="checkbox" name="extra" id="extra" class="extra" value="2"></td></tr>
+            <tr><td>Chocolate</td><td><input type="checkbox" name="extra" id="extra" class="extra" value="4"></td></tr>
+        </tbody>
+    </table>
+                <button id="botonAlgo" onclick="saludar()">[HACER]</button>
+    <script>
+        function saludar(){
+            let mat = document.getElementById("matri");
+            let nom = document.getElementById("names");
+            let tam = document.querySelector('input[name="tm"]:checked');
+
+            const extras = document.querySelectorAll(".extra:checked");
+                    extras.forEach(extra=>{
+                        console.log("extra:"+extra.value);
+                    });
+                    
+                alert('Datos de matricula:'+nom.value+"  "+mat.value+"  tamaño:"+tam.value);
+        }
+    </script>
+</body>
+</html>
