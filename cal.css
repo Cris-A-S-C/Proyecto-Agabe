@@ -12,6 +12,8 @@ header {
 
 table{
     cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
     margin-left: auto;
     margin-right: auto;
 }
@@ -19,4 +21,7 @@ button{
     background-color: aliceblue;
     color: black;
     padding: 10px 20px;
+}
+div{
+    text-align: center;
 }
