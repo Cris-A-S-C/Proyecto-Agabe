@@ -13,17 +13,13 @@ header {
 table{
     width: 100%;
     border-collapse: collapse;
-}
-td{
     cursor: pointer;
     text-align: center;
     vertical-align: middle;
     margin-left: auto;
     margin-right: auto;
 }
-tr {
-    height: 200px;
-}
+
 button{
     background-color: aliceblue;
     color: black;
