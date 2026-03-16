@@ -1,10 +1,23 @@
 body{
-            background-color: bisque;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
-        button{
-            background-color: rgba(250, 130, 44, 0.959);
-            border: 0;
-            font-family: 'Times New Roman', Times, serif;
-            text-decoration: underline;
-        }
+    background-color: bisque;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+    background-color: rgba(250, 130, 44, 0.959);
+    border: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    padding: 10px 20px;
+}
+header {
+    background: #4b2901;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+table{
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
