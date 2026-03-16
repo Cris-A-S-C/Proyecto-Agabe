@@ -1,5 +1,9 @@
 body{
-    background-color: bisque;
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#A52A2A,#D2B48C);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 button{
@@ -25,8 +29,9 @@ table{
     margin-right: auto;
 }
 img{
-    padding: 10px 20px;
-    max-width: 200%;
+    width: 200px;
+    border-radius: 5px;
+    object-fit: cover;
 }
 div{
     text-align: center;
