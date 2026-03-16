@@ -3,3 +3,20 @@ body{
     color: black;
     font-family: 'Times New Roman', Times, serif;
 }
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+table{
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    background-color: aliceblue;
+    color: black;
+    padding: 10px 20px;
+}
