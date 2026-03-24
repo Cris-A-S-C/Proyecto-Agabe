@@ -12,6 +12,14 @@ function agregado(){
     alert("El arreglo esta formado por ["+Am3+"]");
 }
 
+function extradicion() {
+    let nx = parseFloat(document.getElementById("numX").value);
+
+    Am3.push(nx)
+
+    alert("El arreglo esta formado por ["+Am3+"]");
+}
+
 function mayorizado(){
     let mayor = Am3[0]
 
