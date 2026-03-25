@@ -1,4 +1,5 @@
 let Am3 = [];
+let Am4 = [];
 
 function agregado(){
     let n1 = parseFloat(document.getElementById("num1").value);
@@ -29,4 +30,30 @@ function mayorizado(){
     }
 }
     alert("El numero mayor entre todos es: "+mayor)
+}
+
+function suma(){
+    let sumar=0
+
+    for(let i = 0; i < Am3.length; i++){
+        sumar+=Am3[i]
+    }
+    alert("La suma de los numeros es: "+sumar)
+}
+
+function adicion(){
+    let n4 = parseFloat(document.getElementById("num4").value);
+    
+    Am4.push(n4)
+
+    alert("El arreglo esta formado por ["+Am4+"]");
+}
+
+function unarr(){
+    let am5=[];
+
+    for(let i = 0; i < Am3.length; i++){
+        am5[i]=Am3[i]+Am4[i]
+    }
+    alert("La suma de los numeros de los arreglos es: ["+am5+"]")
 }
