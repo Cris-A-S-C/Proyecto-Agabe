@@ -26,8 +26,7 @@ function mayorizado(){
     for(let i = 0; i < Am3.length; i++){
         if (Am3[i] > mayor){
             mayor = Am3[i]
-    }else
-        mayor=mayor
+    }
 }
     alert("El numero mayor entre todos es: "+mayor)
 }
