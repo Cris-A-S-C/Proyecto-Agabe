@@ -51,9 +51,25 @@ function adicion(){
 
 function unarr(){
     let am5=[];
+    let mayor = Am3[0]
+    let menor = Am4[0]
 
     for(let i = 0; i < Am3.length; i++){
-        am5[i]=Am3[i]+Am4[i]
+       if (Am3[i] > mayor){
+            mayor = Am3[i]
+        }
     }
-    alert("La suma de los numeros de los arreglos es: ["+am5+"]")
+    for(let j = 0; j< Am4.length; j++){
+        if (Am4[j] < menor){
+            menor = Am4[j]
+        }
+    }
+    am5[0]=mayor
+    am5[1]=menor
+
+    alert("El primer arreglo es: [ "+Am3+" ]"
+        +"\nEl segundo arreglo es: [ "+Am4+" ]"
+        +"\nLos numeros del tercer arreglo son: [ "+am5+" ]"
+        +"\nEl número mayor del primer arreglo es: "+am5[0]
+        +"\nEl número menor del segundo arreglo es: "+am5[1])
 }
