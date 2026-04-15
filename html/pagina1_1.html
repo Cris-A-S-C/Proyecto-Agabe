@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/array2.css">
+    <script src="../js/jsp1_1.js"></script>
+</head>
+<body>
+     <table>
+    <thead>
+        <tr>
+        <td>Nombre</td><td>Matricula</td><td>Edad</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><input type="text" id="nombre"></td>
+            <td><input type="text" id="matri"></td>
+            <td><input type="text" id="edad"></td>
+        </tr>
+    </tbody>
+   </table> 
+
+   <button id="buttonalma" onclick="almacen()">Almacenar</button>
+   <button id="buttontab" onclick="mostrarT()">Mostrar Tabla</button>
+   <button id="buttonmay" onclick="maymay()">Sacar Mayor</button>
+   
+   <div>
+    <table>
+    <thead>
+        <td>Nombre</td><td>Matricula</td><td>Edad</td>
+    </thead>
+        <tbody id="tabla1">
+        </tbody>
+   </table>
+   </div>
+</body>
+</html>
