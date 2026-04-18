@@ -2,6 +2,10 @@ let objetosX=[]
 let A=[]
 let B=[]
 let C=[]
+let turno=0
+let t1=1
+let t2=0
+let t3=0
 
 function almacen(){
     let nom = document.getElementById("nombre")
@@ -48,7 +52,6 @@ function array2(){
     let nom = document.getElementById("nombre")
     let mat = document.getElementById("matri")
     let ed = document.getElementById("edad")
-    let turno=0
 
     let obj={
         "nombre": nom.value,
@@ -58,10 +61,12 @@ function array2(){
     }
     if (turno==0){
         A.push(obj)
+        console.log(A)
         turno=1
     }
     else{
         B.push(obj)
+        console.log(B)
         turno=0
     }
 }
@@ -74,9 +79,6 @@ function array3(){
     let nom = document.getElementById("nombre")
     let mat = document.getElementById("matri")
     let ed = document.getElementById("edad")
-    let t1=1
-    let t2=0
-    let t3=0
 
     let obj={
         "nombre": nom.value,
@@ -86,18 +88,21 @@ function array3(){
     }
     if(t1==1&&t2==0&&t3==0){
         A.push(obj)
+        console.log(A)
         t1=0
         t2=1
         t3=0
     }
     else if(t1==0&&t2==1&&t3==0){
         B.push(obj)
+        console.log(B)
         t1=0
         t2=0
         t3=1
     }
     else if(t1==0&&t2==0&&t3==1){
         A.push(obj)
+        console.log(C)
         t1=0
         t2=0
         t3=1
